@@ -1,0 +1,104 @@
+{
+"cars": [
+{
+    "id": "1",
+    "Brand": "Land Rover",
+    "Model": "Defender",
+    "Year": 2024,
+    "Transmission": "Auto",
+    "fuel": "Diesel",
+    "price": "18,000,000",
+    "image": "./images/defender.jpg"
+},
+{
+    "id": "2",
+    "Brand": "Porsche",
+    "Model": "Cayenne",
+    "Year": 2022,
+    "Transmission": "Manual",
+    "fuel": "Diesel",
+    "price": "12,000,000",
+    "image": "./images/porsche.jpeg"
+},
+{
+    "id": "3",
+    "Brand": "Mercedes Benz",
+    "Model": "GLE Coupe",
+    "Year": 2023,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "16,000,000",
+    "image": "./images/gle-coupe.jpeg"
+},
+{
+    "id": "4",
+    "Brand": "Mercedes Benz",
+    "Model": "GLE",
+    "Year": 2019,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "11,000,000",
+    "image": "./images/gle.jpg"
+},
+{
+    "id": "5",
+    "Brand": "Mercedes Benz",
+    "Model": "GLS",
+    "Year": 2024,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "30,000,000",
+    "image": "./images/gls.jpeg"
+},
+{
+    "id": "6",
+    "Brand": "Audi",
+    "Model": "RS7",
+    "Year": 2021,
+    "Transmission": "Manual",
+    "fuel": "Petrol",
+    "price": "15,000,000",
+    "image": "./images/AUDI-RS7.jpeg"
+},
+{
+    "id": "7",
+    "Brand": "Mercedes Benz",
+    "Model": "G Wagon",
+    "Year": 2019,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "25,000,000",
+    "image": "./images/Gwagon.jpg"
+},
+{
+    "id": "8",
+    "Brand": "Land Cruiser",
+    "Model": "200 Series",
+    "Year": 2024,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "20,000,000",
+    "image": "./images/land-cruiser.jpeg"
+},
+{
+    "id": "9",
+    "Brand": "Land Rover",
+    "Model": "Range Rover",
+    "Year": 2024,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "35,000,000",
+    "image": "./images/Range Rover.jpeg"
+},
+{
+    "id": "10",
+    "Brand": "BMW",
+    "Model": "X1",
+    "Year": 2020,
+    "Transmission": "Auto",
+    "fuel": "Petrol",
+    "price": "2,000,000",
+    "image": "./images/x1.jpg"
+}
+]
+}

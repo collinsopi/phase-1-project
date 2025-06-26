@@ -23,14 +23,14 @@
 .nav-links a{
     text-decoration: none;
     color: black;
-    transition: o.7s;
+    transition: 0.7s;
     color: rgb(245, 114, 62);
     justify-content: center;
 }
 
 .nav-links a:hover {
 color: rgb(223, 223, 187);
-transition: o.4s;
+transition: 0.4s;
 }
 
 .home {
@@ -105,6 +105,8 @@ transition: o.4s;
     display: flex;
     gap: 20px;
     padding: 20px;
+    color: rgb(226, 179, 161);
+    background-color: #333;
 }
 
 .sidebar {
@@ -122,7 +124,7 @@ transition: o.4s;
 }
 
 .sidebar li {
-    background: #eee;
+    background: #49453f;
     margin-bottom: 8px;
     padding: 10px;
     cursor: pointer;
@@ -130,13 +132,15 @@ transition: o.4s;
 }
 
 .sidebar li.active {
-    background-color: #ff4d30;
+    background-color: #da7d14;
     color: white;
 }
 
 .main {
-    width: 50%;
+    width: 70%;
     text-align: center;
+    color: rgb(226, 179, 161);
+    font-size: 18px;
 }
 
 .main img {
@@ -150,7 +154,7 @@ transition: o.4s;
 }
 
 .price {
-    background-color: #ff4d30;
+    background-color: #49453f;
     color: white;
     font-size: 24px;
     padding: 10px;
@@ -165,7 +169,7 @@ table {
 
 td, th {
     border: 1px solid #ccc;
-    padding: 6px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -173,7 +177,7 @@ button {
     margin-top: 20px;
     width: 100%;
     padding: 10px;
-    background-color: #ff4d30;
+    background-color: #49453f;
     color: white;
     border: none;
     cursor: pointer;
@@ -182,4 +186,8 @@ button {
 
 button:hover {
     background-color: #e03c20;
+}
+
+#reserve-btn {
+    background-color: #49453f;
 }
