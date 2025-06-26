@@ -155,7 +155,7 @@ transition: 0.4s;
 
 .price {
     background-color: #49453f;
-    color: white;
+    color: rgb(226, 179, 161);
     font-size: 24px;
     padding: 10px;
     text-align: center;
@@ -185,9 +185,20 @@ button {
 }
 
 button:hover {
-    background-color: #e03c20;
+    background-color: #da7d14;
 }
 
 #reserve-btn {
     background-color: #49453f;
+    color: rgb(226, 179, 161);
+    font-size: 24px;
+}
+
+.about {
+    background-image: url('./images/abt.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(226, 179, 161);
+    display: flex;
 }
