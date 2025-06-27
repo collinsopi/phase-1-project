@@ -1,9 +1,9 @@
 const homeSection = document.querySelector('.home');
 
 const images = [
-    '../images/home.jpg',
-    '../images/home2.jpg',
-    '../images/home9.jpg'
+    './images/home.jpg',
+    './images/home2.jpg',
+    './images/home9.jpg'
 ];
 
 let current = 0;
