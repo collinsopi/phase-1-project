@@ -3,7 +3,7 @@ const homeSection = document.querySelector('.home');
 const images = [
     '../images/home.jpg',
     '../images/home2.jpg',
-    '../images/home4.jpeg'
+    '../images/home9.jpg'
 ];
 
 let current = 0;
@@ -44,11 +44,18 @@ let cars = [];
 
 //Fetch API
 fetch('http://localhost:3000/cars')
-    .then(res => res.json())
+    .then(res => {
+        if (!res.ok) throw new Error('Network response was not ok');
+        return res.json();
+    })
     .then(data => {
         cars = data;
         renderCarList();
         loadCar(cars[0]);
+    })
+    .catch(err => {
+        alert('Failed to load cars. Please check if json-server is running.');
+        console.error(err);
     });
 
 //Render Car List
@@ -91,14 +98,29 @@ function loadCar(car) {
         `).join('');
 }
 
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        clearCarSelection();
+    }
+});
+
+function clearCarSelection() {
+    carImageEl.src = './images/no-image.jpg';
+    specsTableEl.innerHTML = '';
+    priceEl.innerHTML = '';
+    document.querySelectorAll('.sidebar li').forEach(item => item.classList.remove('active'));
+    alert('Car selection cleared.');
+}
+
+
 reserveBtn.addEventListener('click', () => {
     const activeCar = document.querySelector('.sidebar li.active').textContent;
     alert(`Reservation made for ${activeCar}`);
 });
 
 reserveBtn.addEventListener('mouseover', () => {
-    reserveBtn.style.backgroundColor = '#d3381c';
+    reserveBtn.style.backgroundColor = '#da7d14';
 });
 reserveBtn.addEventListener('mouseout', () => {
-  reserveBtn.style.backgroundColor = '#ff4d30';
+  reserveBtn.style.backgroundColor = '#49453f';
 });
