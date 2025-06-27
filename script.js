@@ -79,7 +79,7 @@ function renderCarList() {
 //Load car details
 function loadCar(car) {
     carImageEl.src = car.image || './images/no-image.jpg';
-    priceEl.innerHTML = ` <span>Car Specs</span>`;
+    priceEl.innerHTML = ` <span>Vehicle Specs</span>`;
 
     const specs = [
         ['Brand', car.Brand],
