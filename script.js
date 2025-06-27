@@ -122,5 +122,5 @@ reserveBtn.addEventListener('mouseover', () => {
     reserveBtn.style.backgroundColor = '#da7d14';
 });
 reserveBtn.addEventListener('mouseout', () => {
-  reserveBtn.style.backgroundColor = '#49453f';
+    reserveBtn.style.backgroundColor = '#49453f';
 });
