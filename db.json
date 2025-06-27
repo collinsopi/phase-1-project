@@ -99,16 +99,6 @@
       "fuel": "Petrol",
       "price": "2,000,000",
       "image": "./images/x1.jpg"
-    },
-    {
-      "id": "a649",
-      "Brand": "Ford",
-      "Model": "Raptor",
-      "Year": 2023,
-      "Transmission": "Manual",
-      "fuel": "Petrol",
-      "price": "17,000,000",
-      "image": "images/raptor.jpeg"
     }
   ]
 }
